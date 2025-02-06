@@ -1,13 +1,21 @@
 import { clsx } from "clsx";
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Outfit, Young_Serif } from "next/font/google";
 import "./globals.css";
 import { memo, ReactNode } from "react";
 
-const geistSans = Geist({
+const outfit = Outfit({
+  weight: ["400", "600", "700"],
   display: "swap",
   subsets: ["latin"],
-  variable: "--font-geist-sans",
+  variable: "--font-outfit",
+});
+
+const youngSerif = Young_Serif({
+  weight: "400",
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-young-serif",
 });
 
 const APP_NAME = "placeholder";
@@ -43,7 +51,11 @@ type Props = Readonly<{
 const RootLayout = ({ children }: Props) => {
   return (
     <html
-      className={clsx(geistSans.variable, "font-sans antialiased")}
+      className={clsx(
+        outfit.variable,
+        youngSerif.variable,
+        "font-sans antialiased",
+      )}
       lang="en-US"
     >
       <body>

@@ -7,7 +7,8 @@
 }
 
 @theme {
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-outfit);
+  --font-serif: var(--font-young-serif);
 
   --color-rose-800: #7a284e;
   --color-rose-50: #fff7fb;
