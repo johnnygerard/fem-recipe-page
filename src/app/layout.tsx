@@ -18,8 +18,8 @@ const youngSerif = Young_Serif({
   variable: "--font-young-serif",
 });
 
-const APP_NAME = "placeholder";
-const DESCRIPTION = "placeholder";
+const APP_NAME = "Recipe page";
+const DESCRIPTION = "Frontend Mentor challenge: Recipe page";
 
 export const metadata: Metadata = {
   title: {
