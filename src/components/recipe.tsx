@@ -25,6 +25,11 @@ const Recipe = () => {
       </div>
       <div className="max-tb:px-400 mt-[2.5rem]">
         <H1>Simple Omelette Recipe</H1>
+        <p className="mt-300">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
       </div>
     </div>
   );
