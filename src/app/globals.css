@@ -7,6 +7,9 @@
 }
 
 @theme {
+  --breakpoint-tb: 40em;
+  --breakpoint-dt: 64em;
+
   --font-sans: var(--font-outfit);
   --font-serif: var(--font-young-serif);
 
