@@ -7,7 +7,7 @@
 }
 
 @theme {
-  --breakpoint-tb: 40em;
+  --breakpoint-tb: 48em;
   --breakpoint-dt: 64em;
 
   --font-sans: var(--font-outfit);
