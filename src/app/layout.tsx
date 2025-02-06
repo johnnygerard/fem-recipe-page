@@ -54,7 +54,7 @@ const RootLayout = ({ children }: Props) => {
       className={clsx(
         outfit.variable,
         youngSerif.variable,
-        "font-sans antialiased",
+        "font-sans text-base text-stone-600 antialiased",
       )}
       lang="en-US"
     >
