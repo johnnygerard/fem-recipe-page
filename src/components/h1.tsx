@@ -1,7 +1,7 @@
-import { memo, ReactNode } from "react";
+import { memo } from "react";
 
 type Props = Readonly<{
-  children: ReactNode;
+  children: string;
 }>;
 
 const H1 = ({ children }: Props) => {
