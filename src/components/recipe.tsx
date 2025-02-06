@@ -23,7 +23,9 @@ const Recipe = () => {
           priority
         />
       </div>
-      <H1>Simple Omelette Recipe</H1>
+      <div className="max-tb:px-400 mt-[2.5rem]">
+        <H1>Simple Omelette Recipe</H1>
+      </div>
     </div>
   );
 };
