@@ -1,7 +1,12 @@
+import Recipe from "@/components/recipe";
 import { memo } from "react";
 
 const HomePage = () => {
-  return <h1>Deployment successful!</h1>;
+  return (
+    <div className="tb:py-1600 tb:grid tb:place-content-center min-h-screen w-full">
+      <Recipe />
+    </div>
+  );
 };
 
 export default memo(HomePage);

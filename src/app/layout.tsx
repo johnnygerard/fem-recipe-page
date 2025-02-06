@@ -59,7 +59,7 @@ const RootLayout = ({ children }: Props) => {
       lang="en-US"
     >
       <body className="bg-stone-100">
-        <div className="grid min-h-screen place-items-center">{children}</div>
+        {children}
         <noscript>
           <div
             style={{
