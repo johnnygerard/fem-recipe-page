@@ -1,7 +1,7 @@
 import UnorderedList from "@/components/unordered-list";
 import { Fragment, memo } from "react";
 
-const content = [
+const items = [
   { head: "Total", tail: "Approximately 10 minutes" },
   { head: "Preparation", tail: "5 minutes" },
   { head: "Cooking", tail: "5 minutes" },
@@ -14,7 +14,7 @@ const RecipeTimings = () => {
         Preparation time
       </p>
       <UnorderedList bulletColor="bg-rose-800">
-        {content.map(({ head, tail }) => (
+        {items.map(({ head, tail }) => (
           <Fragment key={head}>
             <strong className="font-bold">{head}</strong>
             {`: ${tail}`}
