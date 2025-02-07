@@ -1,5 +1,6 @@
 import omelet from "@/assets/omelet.jpg";
 import H1 from "@/components/h1";
+import Ingredients from "@/components/ingredients";
 import RecipeTimings from "@/components/recipe-timings";
 import { clsx } from "clsx";
 import Image from "next/image";
@@ -26,12 +27,15 @@ const Recipe = () => {
       </div>
       <div className="max-tb:px-400 mt-[2.5rem]">
         <H1>Simple Omelette Recipe</H1>
-        <p className="mt-300 mb-400">
-          An easy and quick dish, perfect for any meal. This classic omelette
-          combines beaten eggs cooked to perfection, optionally filled with your
-          choice of cheese, vegetables, or meats.
-        </p>
-        <RecipeTimings />
+        <div className="flex flex-col gap-400">
+          <p>
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+          <RecipeTimings />
+          <Ingredients />
+        </div>
       </div>
     </div>
   );

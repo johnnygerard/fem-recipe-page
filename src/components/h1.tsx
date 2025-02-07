@@ -6,7 +6,7 @@ type Props = Readonly<{
 
 const H1 = ({ children }: Props) => {
   return (
-    <h1 className="tb:text-[2.5rem] font-serif text-[2.25rem] leading-none text-stone-900">
+    <h1 className="tb:text-[2.5rem] mb-300 font-serif text-[2.25rem] leading-none text-stone-900">
       {children}
     </h1>
   );
