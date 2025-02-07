@@ -1,4 +1,5 @@
 import omelet from "@/assets/omelet.jpg";
+import Divider from "@/components/divider";
 import H1 from "@/components/h1";
 import Ingredients from "@/components/ingredients";
 import Instructions from "@/components/instructions";
@@ -36,7 +37,9 @@ const Recipe = () => {
           </p>
           <RecipeTimings />
           <Ingredients />
+          <Divider />
           <Instructions />
+          <Divider />
         </div>
       </div>
     </div>
