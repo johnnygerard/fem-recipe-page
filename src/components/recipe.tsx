@@ -3,6 +3,7 @@ import Divider from "@/components/divider";
 import H1 from "@/components/h1";
 import Ingredients from "@/components/ingredients";
 import Instructions from "@/components/instructions";
+import Nutrition from "@/components/nutrition";
 import RecipeTimings from "@/components/recipe-timings";
 import { clsx } from "clsx";
 import Image from "next/image";
@@ -40,6 +41,7 @@ const Recipe = () => {
           <Divider />
           <Instructions />
           <Divider />
+          <Nutrition />
         </div>
       </div>
     </div>
