@@ -1,11 +1,11 @@
 # Frontend Mentor | Recipe page
 
 This is my solution to
-the [Recipe page challenge](placeholder)
+the [Recipe page challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
 from [Frontend Mentor](https://www.frontendmentor.io/).
 
-![project status](https://img.shields.io/badge/status-work%20in%20progress-red?style=for-the-badge)
-[![live demo](https://img.shields.io/badge/live_demo-blue?style=for-the-badge)](https://starter-nextjs-15.vercel.app/)
+[![project status](https://img.shields.io/badge/status-solution_published-success?style=for-the-badge)](https://www.frontendmentor.io/solutions/recipe-page-kRFaaA-xDH)
+[![live site](https://img.shields.io/badge/live_site-blue?style=for-the-badge)](https://fem-recipe-page-jgerard.vercel.app/)
 [![Lighthouse report](https://img.shields.io/badge/lighthouse-%23F44B21?style=for-the-badge&logo=lighthouse&logoColor=fff)](https://googlechrome.github.io/lighthouse/viewer/?gist=dbaee6e52136810af535e5115f1472ec)
 
 ## Tech Stack
