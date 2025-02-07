@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const NotFound = () => {
   return (
-    <div className="tb:py-1600 tb:grid tb:place-content-center min-h-screen min-w-min p-4 text-center">
+    <main className="tb:py-1600 tb:grid tb:place-content-center min-h-screen min-w-min p-4 text-center">
       <H1>404</H1>
       <H2>Recipe Not Found</H2>
       <p className="mb-8">
@@ -22,7 +22,7 @@ const NotFound = () => {
       >
         Go Back Home
       </Link>
-    </div>
+    </main>
   );
 };
 
