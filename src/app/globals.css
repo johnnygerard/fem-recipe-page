@@ -7,5 +7,31 @@
 }
 
 @theme {
-  --font-sans: var(--font-geist-sans);
+  --breakpoint-tb: 48em;
+  --breakpoint-dt: 64em;
+
+  --font-sans: var(--font-outfit);
+  --font-serif: var(--font-young-serif);
+
+  --color-rose-800: #7a284e;
+  --color-rose-50: #fff7fb;
+  --color-stone-900: #312e2c;
+  --color-stone-600: #5f564d;
+  --color-stone-150: #e3ddd7;
+  --color-stone-100: #f3e5d7;
+  --color-brown-800: #854632;
+  --color-white: #ffffff;
+
+  --radius-150: 0.75rem;
+  --radius-300: 1.5rem;
+
+  --spacing: 0.25rem;
+  --spacing-100: 0.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-400: 2rem;
+  --spacing-500: 2.5rem;
+  --spacing-600: 3rem;
+  --spacing-1600: 8rem;
 }

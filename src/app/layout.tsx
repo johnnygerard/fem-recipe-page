@@ -1,17 +1,25 @@
 import { clsx } from "clsx";
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Outfit, Young_Serif } from "next/font/google";
 import "./globals.css";
 import { memo, ReactNode } from "react";
 
-const geistSans = Geist({
+const outfit = Outfit({
+  weight: ["400", "600", "700"],
   display: "swap",
   subsets: ["latin"],
-  variable: "--font-geist-sans",
+  variable: "--font-outfit",
 });
 
-const APP_NAME = "placeholder";
-const DESCRIPTION = "placeholder";
+const youngSerif = Young_Serif({
+  weight: "400",
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-young-serif",
+});
+
+const APP_NAME = "Recipe page";
+const DESCRIPTION = "Frontend Mentor challenge: Recipe page";
 
 export const metadata: Metadata = {
   title: {
@@ -43,11 +51,15 @@ type Props = Readonly<{
 const RootLayout = ({ children }: Props) => {
   return (
     <html
-      className={clsx(geistSans.variable, "font-sans antialiased")}
+      className={clsx(
+        outfit.variable,
+        youngSerif.variable,
+        "font-sans text-base text-stone-600 antialiased",
+      )}
       lang="en-US"
     >
-      <body>
-        <div className="grid min-h-screen place-items-center">{children}</div>
+      <body className="bg-stone-100">
+        {children}
         <noscript>
           <div
             style={{
