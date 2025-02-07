@@ -1,6 +1,7 @@
 import omelet from "@/assets/omelet.jpg";
 import H1 from "@/components/h1";
 import Ingredients from "@/components/ingredients";
+import Instructions from "@/components/instructions";
 import RecipeTimings from "@/components/recipe-timings";
 import { clsx } from "clsx";
 import Image from "next/image";
@@ -35,6 +36,7 @@ const Recipe = () => {
           </p>
           <RecipeTimings />
           <Ingredients />
+          <Instructions />
         </div>
       </div>
     </div>
